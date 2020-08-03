@@ -15,3 +15,8 @@ Vue.use(ElementUI);
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+/*eslint-disable*/
+// 隐藏进度条
+NProgress.done();
+/* eslint-enable */
